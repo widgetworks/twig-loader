@@ -1,5 +1,5 @@
 {
-  "name": "twig-loader",
+  "name": "@wiwo/twig-loader",
   "version": "0.4.1",
   "description": "Webpack loader for compiling twig.js templates",
   "main": "index.js",
@@ -17,18 +17,20 @@
   },
   "homepage": "https://github.com/zimmo-be/twig-loader#readme",
   "peerDependencies": {
-    "twig": "~1.10.5"
+    "@wiwo/twig": "^v1.13.2-wiwo.1"
   },
   "dependencies": {
     "hasha": "^3.0.0",
     "loader-utils": "^1.1.0",
     "lodash": "^4.17.11",
     "map-cache": "^0.2.2",
-    "schema-utils": "^0.4.5",
-    "twig": "^1.12.0"
+    "schema-utils": "^0.4.5"
   },
   "devDependencies": {
     "mocha": "^5.2.0",
     "should": "^13.2.1"
+  },
+  "disabledDependencies": {
+    "@wiwo/twig": "v1.13.2-wiwo.1"
   }
 }
